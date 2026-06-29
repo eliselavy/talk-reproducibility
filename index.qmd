@@ -203,14 +203,6 @@ Using Binder, it is possible to re-execute this notebook on a cloud resource. Th
 see [GitHub repo]https://mybinder.org/v2/gh/C2DH/template_repo_JDH
 
 
-## Intesresting to know
-
-- [Markdown](https://www.markdownguide.org/getting-started/)
-- [GitHub](https://github.com/apps/desktop)
-- [Nbconvert](https://nbconvert.readthedocs.io/en/latest/)
-
-
-
 ## Software dependencies and installation
 
 Python, python virtual environment, dependencies
@@ -227,8 +219,26 @@ source venv/bin/activate         # activate virtual environment
 pip install -r requirements.txt  # install dependencies
 ```
 
-## Workflow to collaborate
+## Intesresting to know
+
+- [Markdown](https://www.markdownguide.org/getting-started/)
+- [GitHub](https://github.com/apps/desktop)
+- [Nbconvert](https://nbconvert.readthedocs.io/en/latest/)
+- [Jupytext](https://jupytext.org/) 
+
+There is also [MOOC Reproducible research: methodological principles for transparent science](https://www.fun-mooc.fr/en/courses/reproducible-research-methodological-principles-transparent-scie/)
+
 
 ## Publishing
+
+![](img/jdh.png){width="100%"}
+
+## To follow
+
+- [MOOC Reproducible research: methodological principles for transparent science](https://www.fun-mooc.fr/en/courses/reproducible-research-methodological-principles-transparent-scie/)
+- Group GT notebook
+- Revue 3.0
+
+## Bibliography
 
 
