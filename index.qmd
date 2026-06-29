@@ -117,7 +117,17 @@ And with this single source of truth, we have a) the Tangle process which extrac
 Everything is synchronized.
 :::
 
+## Notebook Zoo
 
+Many notebook systems, diverse features:
+
+- interactive (e.g. Jupyter) vs. compiler-style (e.g. knitr)
+- tied to a language (e.g. Mathematica) vs. adaptable to any language (e.g. Jupyter)
+- one language per document (e.g. Jupyter) vs. multiple (e.g. Emacs/org-babel)
+- focus on recording a computation (e.g. Jupyter) vs. publishing (e.g. Quarto)
+- cloud-native with managed infrastructure (e.g. Google Colab, Kaggle) vs. locally executed (e.g. Jupyter)
+- bundled AI assistance and LLM integration (e.g. Google Colab with Gemini) vs. standalone execution environments
+- free GPU/TPU access for resource-intensive tasks (e.g. Kaggle, Google Colab) vs. local compute dependency
 
 
 ## Notebook Zoo
@@ -200,7 +210,7 @@ Using Binder, it is possible to re-execute this notebook on a cloud resource. Th
 
 ## Organization in a template repository
 
-see [GitHub repo]https://mybinder.org/v2/gh/C2DH/template_repo_JDH
+see [GitHub repo](https://mybinder.org/v2/gh/C2DH/template_repo_JDH)
 
 
 ## Software dependencies and installation
@@ -219,7 +229,7 @@ source venv/bin/activate         # activate virtual environment
 pip install -r requirements.txt  # install dependencies
 ```
 
-## Intesresting to know
+## Interesting to know
 
 - [Markdown](https://www.markdownguide.org/getting-started/)
 - [GitHub](https://github.com/apps/desktop)
