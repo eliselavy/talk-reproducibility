@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "index.html#literate-programming",
+    "href": "index.html#literate-programming",
+    "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
+    "section": "Literate programming",
+    "text": "Literate programming\n\nCode can be opaque: it’s not always obvious what it does\nThe reasons why somebody wrote the code are not visible at all\nThe scientific context of a computation is not in the code either\n\n\nDonald Knuth’s Knuth1984 proposal: Literate Programming (1984)\n\nWrite a story explaining the code\nInsert the code as fragments into the story\nMake a tool that extracts the code fragments and puts them together correctly"
+  },
+  {
+    "objectID": "index.html#literate-programming-1",
+    "href": "index.html#literate-programming-1",
+    "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
+    "section": "Literate programming",
+    "text": "Literate programming\nKnuth practiced his technique:\n\ntwo books (TeX, Metafont)\nmany papers"
+  },
+  {
+    "objectID": "index.html#notebook-anatomy",
+    "href": "index.html#notebook-anatomy",
+    "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
+    "section": "Notebook anatomy",
+    "text": "Notebook anatomy\n\nWithout Literate programming\n\n\n\nIn this slide we describe the classic way used by scientific for publication.\nSource code at the left is made of both comments and source code. One part of this code run and make computation (yellow) and the other generate graphics (green)\nWe resume the computation in some methodological paragraphs in article (yellow), pictures and explanation.\nThe fact is, source code and article are probably not synchronized, article doesn’t reflect the real code and vice versa. And, this is problematic, and when discover that this is a very common observation, even in computer science, we have a reproducibility crisis like recently. Because scientific stop believing article with beautifull are sufficient."
+  },
+  {
+    "objectID": "index.html#notebook-anatomy-1",
+    "href": "index.html#notebook-anatomy-1",
+    "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
+    "section": "Notebook anatomy",
+    "text": "Notebook anatomy\n\nWith Literate programming\n\n\n\nWith LP and Notebook, we have everything in the same document, the source code that generate result, graphics, and explanation. The organisation of source code in this document is made for human, for explanation. Because, from human point of view, introducing B is a better way to explain the method than to introduce A first.\nAnd with this single source of truth, we have a) the Tangle process which extract code for computer, and b) the Weave process that run code and generate the scientific article. Everything is synchronized."
+  },
+  {
+    "objectID": "index.html#notebook-zoo",
+    "href": "index.html#notebook-zoo",
+    "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
+    "section": "Notebook Zoo",
+    "text": "Notebook Zoo\n\n\n\n\n\n\nNotebook Jupyter notebook .ipynb (Hard-to-read Json)\n\n\n\n\n\n\n\nNotebook Jupyter myst .md (Markdown)"
+  },
+  {
+    "objectID": "index.html#reproducibility-and-replicability",
+    "href": "index.html#reproducibility-and-replicability",
+    "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
+    "section": "Reproducibility and replicability",
+    "text": "Reproducibility and replicability\nReproducing: re-running a simulation or data analysis identically\n\nbe sure what was done exactly\nestablishing a baseline for experimentation\n\n\nReplicating: replacing pieces of code and/or data by something believed to be equivalent\n\ntesting methods, code, and data for robustness\nchallenge your beliefs about equivalence"
+  },
+  {
+    "objectID": "index.html#perspectives-on-data-and-code",
+    "href": "index.html#perspectives-on-data-and-code",
+    "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
+    "section": "Perspectives on data and code",
+    "text": "Perspectives on data and code\n\nData is about the world we study\nData is collected, curated, cleaned, … by scientists\nComputation makes output data from input data\nMy input data is someone else’s output data (and vice versa)\nCode is a tool"
+  },
+  {
+    "objectID": "index.html#documenting-provenance",
+    "href": "index.html#documenting-provenance",
+    "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
+    "section": "Documenting provenance",
+    "text": "Documenting provenance\nThree kinds of data:\n\nRecorded observations: record with metadata about provenance\nChoices made by humans: keep under version control\nComputed results: record inputs (with their provenance)"
+  },
+  {
+    "objectID": "index.html#from-theory-to-practice",
+    "href": "index.html#from-theory-to-practice",
+    "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
+    "section": "From theory to practice",
+    "text": "From theory to practice\n\nSome datasets are too big to be fully archived and versioned\nMuch data (in particular code) is proprietary\nDifferent kinds of data are often entangled\nAlmost all our software pre-dates reproducibility concerns\nThe software industry doesn’t care much about reproducibility\nNeeds of API key"
+  },
+  {
+    "objectID": "index.html#mybinder",
+    "href": "index.html#mybinder",
+    "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
+    "section": "MyBinder",
+    "text": "MyBinder\n\nUsing Binder, it is possible to re-execute this notebook on a cloud resource. This can be tested by following this link:\n\nAt the root - Jupyter lab, can open files in this repository\nThe file - Jupyter Lab, open notebook figure1.ipynb immediately"
+  },
+  {
+    "objectID": "index.html#organization-in-a-template-repository",
+    "href": "index.html#organization-in-a-template-repository",
+    "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
+    "section": "Organization in a template repository",
+    "text": "Organization in a template repository\nsee [GitHub repo]https://mybinder.org/v2/gh/C2DH/template_repo_JDH"
+  },
+  {
+    "objectID": "index.html#software-dependencies-and-installation",
+    "href": "index.html#software-dependencies-and-installation",
+    "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
+    "section": "Software dependencies and installation",
+    "text": "Software dependencies and installation\nPython, python virtual environment, dependencies\nGiven an installed Python3 interpreter (tested on python3.12.11), one needs to install the packages listed in requirements.txt.\nFor example:\npython3 -m venv venv             # create virtual environment\nsource venv/bin/activate         # activate virtual environment\npip install -r requirements.txt  # install dependencies"
+  },
+  {
+    "objectID": "index.html#workflow-to-collaborate",
+    "href": "index.html#workflow-to-collaborate",
+    "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
+    "section": "Workflow to collaborate",
+    "text": "Workflow to collaborate"
+  }
+]
