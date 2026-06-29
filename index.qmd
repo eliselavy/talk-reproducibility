@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy"
+title: "Introduction to Jupyter Notebooks for Reproducible Scientific Research"
 subtitle: "Ethical and Critical AI for Cultural Heritage: From Foundations to Advanced LLMsh"
 authors: 
   - name: Elisabeth Guerard
