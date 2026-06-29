@@ -77,13 +77,6 @@
     "text": "Organization in a template repository\nsee [GitHub repo]https://mybinder.org/v2/gh/C2DH/template_repo_JDH"
   },
   {
-    "objectID": "index.html#intesresting-to-know",
-    "href": "index.html#intesresting-to-know",
-    "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
-    "section": "Intesresting to know",
-    "text": "Intesresting to know\n\nMarkdown\nGitHub\nNbconvert"
-  },
-  {
     "objectID": "index.html#software-dependencies-and-installation",
     "href": "index.html#software-dependencies-and-installation",
     "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
@@ -91,17 +84,31 @@
     "text": "Software dependencies and installation\nPython, python virtual environment, dependencies\nGiven an installed Python3 interpreter (tested on python3.12.11), one needs to install the packages listed in requirements.txt.\nFor example:\npython3 -m venv venv             # create virtual environment\nsource venv/bin/activate         # activate virtual environment\npip install -r requirements.txt  # install dependencies"
   },
   {
-    "objectID": "index.html#workflow-to-collaborate",
-    "href": "index.html#workflow-to-collaborate",
+    "objectID": "index.html#intesresting-to-know",
+    "href": "index.html#intesresting-to-know",
     "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
-    "section": "Workflow to collaborate",
-    "text": "Workflow to collaborate"
+    "section": "Intesresting to know",
+    "text": "Intesresting to know\n\nMarkdown\nGitHub\nNbconvert\nJupytext\n\nThere is also MOOC Reproducible research: methodological principles for transparent science"
   },
   {
     "objectID": "index.html#publishing",
     "href": "index.html#publishing",
     "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
     "section": "Publishing",
-    "text": "Publishing\n\n\n\n\nKnuth, D. E. 1984. “Literate Programming.” The Computer Journal 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "Publishing"
+  },
+  {
+    "objectID": "index.html#to-follow",
+    "href": "index.html#to-follow",
+    "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
+    "section": "To follow",
+    "text": "To follow\n\nMOOC Reproducible research: methodological principles for transparent science\nGroup GT notebook\nRevue 3.0"
+  },
+  {
+    "objectID": "index.html#bibliography",
+    "href": "index.html#bibliography",
+    "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
+    "section": "Bibliography",
+    "text": "Bibliography\n\n\n\n\nKnuth, D. E. 1984. “Literate Programming.” The Computer Journal 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   }
 ]
