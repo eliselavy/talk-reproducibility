@@ -141,6 +141,11 @@ Many notebook systems, diverse features:
 
 :::
 
+## Choice of Jupyter
+
+- open-source and community-driven (e.g. Jupyter) vs. proprietary platforms with vendor lock-in (e.g. Google Colab, Kaggle)
+- reproducibility and openness require that anyone, anywhere, can run the notebook without needing a Google account or a specific platform
+
 ## Reproducibility and replicability
 _Reproducing:_ re-running a simulation or data analysis identically
 
