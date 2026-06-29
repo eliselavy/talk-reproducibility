@@ -59,8 +59,9 @@ engine: markdown
 
 . . .
 
-Donald Knuth's Knuth1984 proposal:
- [Literate Programming](https://doi.org/10.1093/comjnl/27.2.97) (1984) 
+Donald Knuth's  proposal:
+see @10.1093/comjnl/27.2.97
+
 
 - Write a story explaining the code
 - Insert the code as fragments into the story
@@ -196,9 +197,19 @@ Using Binder, it is possible to re-execute this notebook on a cloud resource. Th
 - [The file](https://mybinder.org/v2/gh/C2DH/template_repo_JDH/main?filepath=article.ipynb) - Jupyter Lab, open notebook figure1.ipynb immediately
 
 
+
 ## Organization in a template repository
 
 see [GitHub repo]https://mybinder.org/v2/gh/C2DH/template_repo_JDH
+
+
+## Intesresting to know
+
+- [Markdown](https://www.markdownguide.org/getting-started/)
+- [GitHub](https://github.com/apps/desktop)
+- [Nbconvert](https://nbconvert.readthedocs.io/en/latest/)
+
+
 
 ## Software dependencies and installation
 
@@ -218,5 +229,6 @@ pip install -r requirements.txt  # install dependencies
 
 ## Workflow to collaborate
 
+## Publishing
 
 
