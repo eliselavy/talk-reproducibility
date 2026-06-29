@@ -215,7 +215,9 @@ Using Binder, it is possible to re-execute this notebook on a cloud resource. Th
 
 ## Organization in a template repository
 
-see [GitHub repo](https://mybinder.org/v2/gh/C2DH/template_repo_JDH)
+see [GitHub repo](https://github.com/C2DH/template_repo_JDH)
+
+[Environment set up](https://github.com/C2DH/template_repo_JDH/wiki/DH-Benelux-2026-%E2%80%90-Workshop#part-1-environment-setup-1420--1530)
 
 
 ## Software dependencies and installation
