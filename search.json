@@ -42,6 +42,13 @@
     "text": "Notebook Zoo\n\n\n\n\n\n\nNotebook Jupyter notebook .ipynb (Hard-to-read Json)\n\n\n\n\n\n\n\nNotebook Jupyter myst .md (Markdown)"
   },
   {
+    "objectID": "index.html#choice-of-jupyter",
+    "href": "index.html#choice-of-jupyter",
+    "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
+    "section": "Choice of Jupyter",
+    "text": "Choice of Jupyter\n\nopen-source and community-driven (e.g. Jupyter) vs. proprietary platforms with vendor lock-in (e.g. Google Colab, Kaggle)\nreproducibility and openness require that anyone, anywhere, can run the notebook without needing a Google account or a specific platform"
+  },
+  {
     "objectID": "index.html#reproducibility-and-replicability",
     "href": "index.html#reproducibility-and-replicability",
     "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
