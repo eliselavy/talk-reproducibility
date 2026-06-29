@@ -4,7 +4,7 @@
     "href": "index.html#literate-programming",
     "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
     "section": "Literate programming",
-    "text": "Literate programming\n\nCode can be opaque: it’s not always obvious what it does\nThe reasons why somebody wrote the code are not visible at all\nThe scientific context of a computation is not in the code either\n\n\nDonald Knuth’s Knuth1984 proposal: Literate Programming (1984)\n\nWrite a story explaining the code\nInsert the code as fragments into the story\nMake a tool that extracts the code fragments and puts them together correctly"
+    "text": "Literate programming\n\nCode can be opaque: it’s not always obvious what it does\nThe reasons why somebody wrote the code are not visible at all\nThe scientific context of a computation is not in the code either\n\n\nDonald Knuth’s proposal: see Knuth (1984)\n\nWrite a story explaining the code\nInsert the code as fragments into the story\nMake a tool that extracts the code fragments and puts them together correctly"
   },
   {
     "objectID": "index.html#literate-programming-1",
@@ -77,6 +77,13 @@
     "text": "Organization in a template repository\nsee [GitHub repo]https://mybinder.org/v2/gh/C2DH/template_repo_JDH"
   },
   {
+    "objectID": "index.html#intesresting-to-know",
+    "href": "index.html#intesresting-to-know",
+    "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
+    "section": "Intesresting to know",
+    "text": "Intesresting to know\n\nMarkdown\nGitHub\nNbconvert"
+  },
+  {
     "objectID": "index.html#software-dependencies-and-installation",
     "href": "index.html#software-dependencies-and-installation",
     "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
@@ -89,5 +96,12 @@
     "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
     "section": "Workflow to collaborate",
     "text": "Workflow to collaborate"
+  },
+  {
+    "objectID": "index.html#publishing",
+    "href": "index.html#publishing",
+    "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
+    "section": "Publishing",
+    "text": "Publishing\n\n\n\n\nKnuth, D. E. 1984. “Literate Programming.” The Computer Journal 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   }
 ]

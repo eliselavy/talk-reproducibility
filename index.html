@@ -6,8 +6,8 @@
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.32">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.38">
 
   <title>Introduction to Jupyter Notebooks for Reproducible Scientific Researchy</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -16,6 +16,9 @@
   <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
   <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -93,8 +96,27 @@
     code span.va { color: #111111; } /* Variable */
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
-  </style>
-  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-2740581606dc327e82f18f789b69d8a0.css">
   <link rel="stylesheet" href="style.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -243,7 +265,7 @@ Elisabeth Guerard <a href="https://orcid.org/0000-0001-7742-4141" class="quarto-
 <li class="fragment">The <em>scientific context</em> of a computation is not in the code either</li>
 </ul>
 <div class="fragment">
-<p>Donald Knuth’s Knuth1984 proposal: <a href="https://doi.org/10.1093/comjnl/27.2.97">Literate Programming</a> (1984)</p>
+<p>Donald Knuth’s proposal: see <span class="citation" data-cites="10.1093/comjnl/27.2.97">Knuth (<a href="#/publishing" role="doc-biblioref" onclick="">1984</a>)</span></p>
 <ul>
 <li>Write a story explaining the code</li>
 <li>Insert the code as fragments into the story</li>
@@ -384,19 +406,35 @@ Elisabeth Guerard <a href="https://orcid.org/0000-0001-7742-4141" class="quarto-
 <h2>Organization in a template repository</h2>
 <p>see [GitHub repo]https://mybinder.org/v2/gh/C2DH/template_repo_JDH</p>
 </section>
+<section id="intesresting-to-know" class="slide level2">
+<h2>Intesresting to know</h2>
+<ul>
+<li><a href="https://www.markdownguide.org/getting-started/">Markdown</a></li>
+<li><a href="https://github.com/apps/desktop">GitHub</a></li>
+<li><a href="https://nbconvert.readthedocs.io/en/latest/">Nbconvert</a></li>
+</ul>
+</section>
 <section id="software-dependencies-and-installation" class="slide level2">
 <h2>Software dependencies and installation</h2>
 <p>Python, python virtual environment, dependencies</p>
 <p>Given an installed Python3 interpreter (tested on python3.12.11), one needs to install the packages listed in <a href="requirements.txt"><code>requirements.txt</code></a>.</p>
 <p>For example:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource console number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a></a>python3 -m venv venv             # create virtual environment</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource console number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a></a>python3 -m venv venv             # create virtual environment</span>
 <span id="cb1-2"><a></a>source venv/bin/activate         # activate virtual environment</span>
-<span id="cb1-3"><a></a>pip install -r requirements.txt  # install dependencies</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-3"><a></a>pip install -r requirements.txt  # install dependencies</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="workflow-to-collaborate" class="slide level2">
 <h2>Workflow to collaborate</h2>
+</section>
+<section id="publishing" class="slide level2 smaller scrollable">
+<h2>Publishing</h2>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-10.1093/comjnl/27.2.97" class="csl-entry" role="listitem">
+Knuth, D. E. 1984. <span>“Literate Programming.”</span> <em>The Computer Journal</em> 27 (2): 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https://doi.org/10.1093/comjnl/27.2.97</a>.
+</div>
+</div>
 </section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
@@ -590,7 +628,7 @@ Elisabeth Guerard <a href="https://orcid.org/0000-0001-7742-4141" class="quarto-
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -664,13 +702,14 @@ Elisabeth Guerard <a href="https://orcid.org/0000-0001-7742-4141" class="quarto-
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy
@@ -685,7 +724,7 @@ Elisabeth Guerard <a href="https://orcid.org/0000-0001-7742-4141" class="quarto-
         }
           var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
           var mailtoRegex = new RegExp(/^mailto:/);
-            var filterRegex = new RegExp('/' + window.location.host + '/');
+            var filterRegex = new RegExp("https:\/\/eliselavy\.github\.io\/talk-reproducibility\/");
           var isInternal = (href) => {
               return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
           }
