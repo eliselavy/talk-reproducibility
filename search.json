@@ -32,6 +32,13 @@
     "href": "index.html#notebook-zoo",
     "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
     "section": "Notebook Zoo",
+    "text": "Notebook Zoo\nMany notebook systems, diverse features:\n\ninteractive (e.g. Jupyter) vs. compiler-style (e.g. knitr)\ntied to a language (e.g. Mathematica) vs. adaptable to any language (e.g. Jupyter)\none language per document (e.g. Jupyter) vs. multiple (e.g. Emacs/org-babel)\nfocus on recording a computation (e.g. Jupyter) vs. publishing (e.g. Quarto)\ncloud-native with managed infrastructure (e.g. Google Colab, Kaggle) vs. locally executed (e.g. Jupyter)\nbundled AI assistance and LLM integration (e.g. Google Colab with Gemini) vs. standalone execution environments\nfree GPU/TPU access for resource-intensive tasks (e.g. Kaggle, Google Colab) vs. local compute dependency"
+  },
+  {
+    "objectID": "index.html#notebook-zoo-1",
+    "href": "index.html#notebook-zoo-1",
+    "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
+    "section": "Notebook Zoo",
     "text": "Notebook Zoo\n\n\n\n\n\n\nNotebook Jupyter notebook .ipynb (Hard-to-read Json)\n\n\n\n\n\n\n\nNotebook Jupyter myst .md (Markdown)"
   },
   {
@@ -74,7 +81,7 @@
     "href": "index.html#organization-in-a-template-repository",
     "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
     "section": "Organization in a template repository",
-    "text": "Organization in a template repository\nsee [GitHub repo]https://mybinder.org/v2/gh/C2DH/template_repo_JDH"
+    "text": "Organization in a template repository\nsee GitHub repo"
   },
   {
     "objectID": "index.html#software-dependencies-and-installation",
@@ -84,11 +91,11 @@
     "text": "Software dependencies and installation\nPython, python virtual environment, dependencies\nGiven an installed Python3 interpreter (tested on python3.12.11), one needs to install the packages listed in requirements.txt.\nFor example:\npython3 -m venv venv             # create virtual environment\nsource venv/bin/activate         # activate virtual environment\npip install -r requirements.txt  # install dependencies"
   },
   {
-    "objectID": "index.html#intesresting-to-know",
-    "href": "index.html#intesresting-to-know",
+    "objectID": "index.html#interesting-to-know",
+    "href": "index.html#interesting-to-know",
     "title": "Introduction to Jupyter Notebooks for Reproducible Scientific Researchy",
-    "section": "Intesresting to know",
-    "text": "Intesresting to know\n\nMarkdown\nGitHub\nNbconvert\nJupytext\n\nThere is also MOOC Reproducible research: methodological principles for transparent science"
+    "section": "Interesting to know",
+    "text": "Interesting to know\n\nMarkdown\nGitHub\nNbconvert\nJupytext\n\nThere is also MOOC Reproducible research: methodological principles for transparent science"
   },
   {
     "objectID": "index.html#publishing",
